@@ -204,36 +204,9 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../problem_sets/ps_1.html">Problem Set 1</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Advanced Topics</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../advanced_topics/HF_Coupled_to_Cavity_Tensor_To_Complete.html">Introduction to Molecular CQED</a></li>
-
-
-
-
-
-
-<li class="toctree-l1"><a class="reference internal" href="../advanced_topics/Linear_Variational_Method_Quartic_Oscillator_and_Zeeman_Effect.html">Linear Variational Method - Anharmonic Oscillator</a></li>
-
-
-<li class="toctree-l1"><a class="reference internal" href="../advanced_topics/Zeeman_Effect_Hydrogen_Atom.html">Zeeman Effect</a></li>
-
-
-</ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Computational Sets</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../computational_sets/CO_Perturbation_Theory.html">Computing Fundamental Transition of CO under different levels of approximation</a></li>
-
-
-
-<li class="toctree-l1"><a class="reference internal" href="../computational_sets/hydrogen_wavefunctions.html">DEMO: H wavefunctions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../computational_sets/linear_variational_method.html">Linear Variational Method</a></li>
-
 <li class="toctree-l1"><a class="reference internal" href="../computational_sets/note05.html">Additional Notes on Spin</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../computational_sets/pib_delta_potential_dynamics.html">Dynamics of particle in a box with a delta potential</a></li>
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="../computational_sets/Spin_one_half.html">Computational Set 1: Introduction to Spin 1/2</a></li>
 
 
@@ -1770,7 +1743,7 @@ E = \frac{h^2}{8ma^2} \left ( n_x^2 + n_y^2 \right )
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.image.AxesImage at 0x10a78ae10&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.image.AxesImage at 0x11c10b450&gt;
 </pre></div>
 </div>
 <img alt="../../_images/ce2a05565d6c2eac2155db63ce3d0c460580a2d09755f331238d423bd1f7a7b7.png" src="../../_images/ce2a05565d6c2eac2155db63ce3d0c460580a2d09755f331238d423bd1f7a7b7.png" />
@@ -2071,7 +2044,7 @@ E - V(x) &amp;= T_x \\
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x2/ggtknn9s49s3dcq96ckcgfgh0000gn/T/ipykernel_16937/4185230906.py:9: RuntimeWarning: divide by zero encountered in divide
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/dp/63x0n7nd4_q9b8cbskjk1xpr0000gp/T/ipykernel_34673/4185230906.py:9: RuntimeWarning: divide by zero encountered in divide
   rhs = 2 * np.sqrt(V0-E) * np.sqrt(E) / (2 * E - V0)
 </pre></div>
 </div>
@@ -2175,12 +2148,6 @@ E - V(x) &amp;= T_x \\
     <span class="n">N</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">trapz</span><span class="p">(</span><span class="n">psi2</span><span class="p">[:,</span> <span class="n">state</span><span class="p">],</span> <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">))</span>
     <span class="n">psi</span><span class="p">[:,</span> <span class="n">state</span><span class="p">]</span> <span class="o">*=</span> <span class="n">N</span>
     <span class="n">psi2</span><span class="p">[:,</span> <span class="n">state</span><span class="p">]</span> <span class="o">*=</span> <span class="n">N</span><span class="o">*</span><span class="n">N</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x2/ggtknn9s49s3dcq96ckcgfgh0000gn/T/ipykernel_16937/337456428.py:7: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
-  N = np.sqrt(1.0 / np.trapz(psi2[:, state], x = x))
 </pre></div>
 </div>
 </div>
